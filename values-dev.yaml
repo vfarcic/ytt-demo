@@ -1,0 +1,6 @@
+sillydemo:
+  version: latest
+dot:
+  version: latest
+  ingress:
+    host: devopstoolkitseries.127.0.0.1.nip.io

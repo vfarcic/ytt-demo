@@ -1,0 +1,11 @@
+#! config.yml
+#@ load("@ytt:data", "data")
+#@ load("@ytt:library", "library")
+#@ load("@ytt:template", "template")
+
+#@ resources_lib = library.get("resources")
+#@ sillydemo = resources_lib.with_data_values(data.values.sillydemo)
+#@ dot = resources_lib.with_data_values(data.values.dot)
+
+--- #@ template.replace(sillydemo.eval())
+--- #@ template.replace(dot.eval())

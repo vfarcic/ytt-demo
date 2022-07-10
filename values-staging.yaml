@@ -1,0 +1,6 @@
+sillydemo:
+  version: "1.0.5"
+dot:
+  version: "5.0.5"
+  ingress:
+    host: staging.devopstoolkitseries.com

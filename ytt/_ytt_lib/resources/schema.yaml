@@ -1,0 +1,10 @@
+#@data/values-schema
+
+---
+
+name: "my-app"
+port: 8080
+version: "latest"
+#@schema/nullable
+ingress:
+  host: devopstoolkitseries.com
